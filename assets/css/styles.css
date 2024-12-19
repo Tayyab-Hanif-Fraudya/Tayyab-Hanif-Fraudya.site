@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+.infobox {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+    width: 100%;
+}
+.infobox img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.infobox th, .infobox td {
+    padding: 5px;
+}
+.infobox th {
+    font-weight: bold;
+    text-align: left;
+}
+.toc {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.toc h2 {
+    font-size: 1.25em;
+    margin-top: 0;
+}
+.toc ul {
+    padding-left: 20px;
+}
+.toc ul li {
+    list-style-type: decimal;
+}
+.reference-list li {
+    margin-bottom: 5px;
+}
+.navbar {
+    background-color: #ececec;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .infobox, .toc, .main-content {
+        margin-bottom: 20px;
+    }
+}
